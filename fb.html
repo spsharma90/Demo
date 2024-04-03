@@ -1,0 +1,85 @@
+<html>
+	<head>
+		<style>
+			body
+			{
+				margin:0;
+				padding:0;
+			}
+			#header
+			{
+				height:90px;
+				width:100%;
+				//border:solid;
+				background-color : #3D5794;
+				/*   solid,dotted,dashed,groove,ridge,inset,outset */
+			}
+			#body
+			{
+				height:450px;
+				width:100%;
+				border:solid;
+			}
+			#footer
+			{
+				height:122px;
+				width:100%;
+				border:solid;
+			}
+			.inner-header
+			{
+				height:90px;
+				width:50%;
+				//border:solid;
+				float:left;
+			}
+			#logo
+			{
+				margin-left:55px;
+				height:80px;
+				margin-top:9px;
+			}
+			#login-table
+			{
+				margin-left:85px;
+				margin-top:11px;
+			}
+			.login-text
+			{
+				color:white;
+			}
+			#login-button
+			{
+				background-color:#3D5794;
+				color:white;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<div class="inner-header">
+				<img src="logofb.png" id="logo"/>
+			</div>
+			<div class="inner-header">
+				<table id="login-table">
+					<tr>
+						<td><span class="login-text">Email or Phone</span></td>
+						<td colspan="2"><span class="login-text">Password</span></td>
+					</tr>
+					<tr>
+						<td><input type="text"/></td>
+						<td><input type="password"/></td>
+						<td><input type="submit" value="Log In" id="login-button"/></td>
+					</tr>
+					<tr>
+						<td><span class="login-text"><input type="checkbox"/>Keep me logged in!</span></td>
+						<td colspan="2"><span class="login-text">Remember Me</span></td>
+						
+					</tr>
+				</table>
+			</div>
+		</div>	
+		<div id="body"></div>	
+		<div id="footer"></div>	
+	</body>
+</html>
